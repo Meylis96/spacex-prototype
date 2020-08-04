@@ -1,0 +1,224 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #010001;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width: 1230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 53px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item-link{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.secondary-menu .list .item .item-link{
+    color: #808080;
+}
+
+.falcon-heavy{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.falcon-title{
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.falcon-subtitle{
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+    width: 268px;
+}
+
+hr{
+    margin-top: 26px;
+    position: absolute;
+    width: 0;
+    left: 50%;
+    height: 59px;
+}
+
+.earth-image img{
+    width: 100%;
+    margin-top: 32px;
+}
+
+.rocket{
+    display: flex;
+    flex-direction: row;
+    margin-left: 149px;
+}
+
+.rocket img{
+    width: 100%;
+}
+
+.rocket-overview{
+    margin-top: 492px;
+}
+.rocket-overview h1{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.rocket-descr {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.rocket-descr ul li{
+    list-style: none;
+    margin-bottom: 11px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 179.69%;
+}
+
+.first{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.second{
+    margin: 0;
+}
+
+.second span{
+    color: #B2B0B2;
+}
+
+.rocket-perfomance{
+    margin-top: 218px;
+}
+
+.rocket-perfomance h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 45px;
+}
+
+.rocket-perfomance p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.footer{
+    margin-top: 292px;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-items img{
+    margin-bottom: 43px;
+}
+
+.footer-social{
+    margin-bottom: 28px;
+}
+
+.footer-social ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-social ul li{
+    list-style: none;
+}
+
+.footer-social ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-mail{
+    margin-bottom: 30px;
+}
+
+.footer-mail p,
+.footer-mail a{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #808080;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.footer-mail a:hover{
+    color: white;
+}
+
+.footer button{
+    width: 260px;
+    height: 60px;
+    color: white;
+    background: none;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 150px;
+    transition: 0.3s all;
+}
+
+.footer button:hover{
+    background: white;
+    color: black;
+}
+
