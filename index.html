@@ -6,6 +6,10 @@
     <title>SpaceX Prototype</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/vidbg/vidbg.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
     <link rel="stylesheet" href="/src/styles/style.css">
 </head>
 <body>
@@ -38,14 +42,14 @@
     </header>
 
     <div class="falcon-heavy" id="falcon-heavy">
-        <h1 class="falcon-title">
+        <h1 class="falcon-title wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
             Falcon Heavy
         </h1>
-        <p class="falcon-subtitle">
+        <p class="falcon-subtitle wow animate__animated animate__fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">
             The most powerful operational rocket in the world by a factor of two
         </p>
     </div>
-    <hr>
+    <hr class="animate__animated animate__fadeInDown wow" data-wow-duration="1.5s" data-wow-delay="0.7s">
     
     <div class="earth-image">
         <div class="video">
@@ -57,24 +61,24 @@
         <div class="rocket-info">
 
             <div class="rocket-overview">
-                <h1>Falcon heavy <br> overview</h1>
+                <h1 class="animate__animated animate__fadeInUp wow" data-wow-duration="1.5s" data-wow-delay="0.5s">Falcon heavy <br> overview</h1>
                 <div class="rocket-descr">
                     <ul class="first">
-                        <li>Height</li>
-                        <li>diameter</li>
-                        <li>mass</li>
-                        <li>payload to leo</li>
-                        <li>payload to gto</li>
-                        <li>payload to mars</li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="0.6s">Height</li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="0.7s">diameter</li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="0.7s">mass</li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="0.9s">payload to leo</li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1s">payload to gto</li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.1s">payload to mars</li>
                     </ul>
 
                     <ul class="second">
-                        <li>70 m / <span>229.6 ft</span> </li>
-                        <li>12.2 m / <span>39.9 ft</span> </li>
-                        <li>1,420,788 kg / <span>3,125,735 lb</span> </li>
-                        <li>63,800 kg / <span>140,660 lb</span> </li>
-                        <li>26,700 kg / <span>58,860 lb</span> </li>
-                        <li>16,800 kg / <span>37,040 lb</span> </li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.2s">70 m / <span>229.6 ft</span> </li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.3s">12.2 m / <span>39.9 ft</span> </li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.4s">1,420,788 kg / <span>3,125,735 lb</span> </li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.5s">63,800 kg / <span>140,660 lb</span> </li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.6s">26,700 kg / <span>58,860 lb</span> </li>
+                        <li class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1.7s">16,800 kg / <span>37,040 lb</span> </li>
                     </ul>
                 </div>
             </div>
@@ -82,8 +86,8 @@
             
 
             <div class="rocket-perfomance">
-                <h2>UNMATCHED <br> PERFORMANCE</h2>
-                <p>With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
+                <h2 class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1s">UNMATCHED <br> PERFORMANCE</h2>
+                <p class="animate__animated animate__fadeInUp wow" data-wow-duration="1.s" data-wow-delay="1s">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
             </div>
         </div>
 
@@ -92,25 +96,26 @@
 
     <footer class="footer">
         <div class="footer-items">
-            <img src="./src/icon/logo.svg" alt="logo">
+            <img src="./src/icon/logo.svg" alt="logo" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1s">
             <div class="footer-social">
                 <ul>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">YouTube</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Flickr</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Policy</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1s">Twitter</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.2s">YouTube</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.3s">Instagram</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.4s">Flickr</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.5s">LinkedIn</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.6s">Privacy</a></li>
+                    <li><a href="#" class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.7s">Policy</a></li>
                 </ul>
             </div>
             <div class="footer-mail">
-                <p>For additional questions, contact <a href="mailto:rideshare@spacex.com">rideshare@spacex.com</a></p>
+                <p class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.8s">For additional questions, contact <a href="mailto:rideshare@spacex.com">rideshare@spacex.com</a></p>
             </div>
-            <button>Contact us</button>
+            <button class="animate__animated animate__fadeIn wow" data-wow-duration="1.s" data-wow-delay="1.9s">Contact us</button>
         </div>
     </footer>
 
+    <script src="./src/scripts/wow.min.js"></script>
     <script src="./src/vidbg/vidbg.js"></script>
     <script src="./src/scripts/rellax.min.js"></script>
     <script src="./src/scripts/index.js"></script>
