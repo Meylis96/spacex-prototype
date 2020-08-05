@@ -64,26 +64,36 @@ body{
 
 hr{
     margin-top: 26px;
-    position: absolute;
     width: 0;
     left: 50%;
     height: 59px;
+    z-index: 2;
 }
 
-.earth-image img{
+.video{
     width: 100%;
-    margin-top: 32px;
+    height: 750px;
 }
 
 .rocket{
     display: flex;
     flex-direction: row;
     margin-left: 149px;
+    position: relative;
 }
 
-.rocket img{
-    width: 100%;
+.rocket-img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 99;
 }
+
+.rocket-info{
+    margin-left: 0;
+    width: 470px;
+}
+
 
 .rocket-overview{
     margin-top: 492px;
@@ -142,7 +152,7 @@ hr{
 }
 
 .footer{
-    margin-top: 292px;
+    margin-top: 300px;
 }
 
 .footer-items{
