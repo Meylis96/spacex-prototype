@@ -84,9 +84,10 @@ hr{
 
 .rocket-img{
     position: absolute;
-    top: 50%;
-    right: 0;
+    right: 10%;
     z-index: 99;
+    width: 277px;
+    height: 1640px;
 }
 
 .rocket-info{
@@ -231,4 +232,3 @@ hr{
     background: white;
     color: black;
 }
-
