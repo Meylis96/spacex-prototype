@@ -84,6 +84,7 @@ hr{
 
 .rocket-img{
     position: absolute;
+    top: 30%;
     right: 10%;
     z-index: 99;
     width: 277px;
